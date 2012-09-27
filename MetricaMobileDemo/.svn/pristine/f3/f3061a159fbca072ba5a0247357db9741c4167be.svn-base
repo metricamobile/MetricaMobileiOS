@@ -1,0 +1,62 @@
+//
+//  ViewController.m
+//  MetricaMobileDemo
+//
+//  Created by Irving  Medina on 06/08/12.
+//  Copyright (c) 2012 logicoim@gmail.com. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+@synthesize txtOne,txtTwo,txtResultado;
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction) triggerCrash {
+	/* Trigger a crash */
+	CFRelease(NULL);
+}
+
+
+- (IBAction) triggerExceptionCrash {
+	/* Trigger a crash */
+    NSArray *array = [NSArray array];
+    [array objectAtIndex:23];
+}
+
+-(IBAction)calcDivision:(id)sender{
+    float resultado=0.0;
+    int a=1, b=1;
+    a=[self.txtOne.text intValue];
+    b=[self.txtTwo.text intValue];
+    resultado=a/b;
+    
+    //NSLog(@"%b / %b  = %f",a,b,resultado);
+    NSString *msg= [[NSString alloc] initWithFormat:@"%10.2f",resultado];
+    UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Resultado" message:msg delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles:nil];
+    [alert show];
+    self.txtResultado.text= [NSString stringWithFormat:@"%10.2f", resultado];
+    //NSLog(@"El resultado es %f",resultado);
+    
+}
+
+@end
