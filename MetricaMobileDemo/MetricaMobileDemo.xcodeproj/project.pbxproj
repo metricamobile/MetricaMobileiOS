@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8865825016725E830063B190 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865824F16725E830063B190 /* Default-568h@2x.png */; };
 		88A1B64915E1E5160008C75B /* logo-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A1B64715E1E5160008C75B /* logo-57x57.png */; };
 		88A1B64A15E1E5160008C75B /* logo-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A1B64815E1E5160008C75B /* logo-114x114.png */; };
 		88B93C5D15D02C6B0001AFA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B93C5C15D02C6B0001AFA5 /* UIKit.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8865824F16725E830063B190 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88A1B64715E1E5160008C75B /* logo-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-57x57.png"; sourceTree = "<group>"; };
 		88A1B64815E1E5160008C75B /* logo-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-114x114.png"; sourceTree = "<group>"; };
 		88B93C5815D02C6B0001AFA5 /* MetricaMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricaMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 		88B93C4D15D02C6B0001AFA5 = {
 			isa = PBXGroup;
 			children = (
+				8865824F16725E830063B190 /* Default-568h@2x.png */,
 				88ED72DD1614FFF900E34586 /* MetricaMobile-iOS */,
 				88A1B64715E1E5160008C75B /* logo-57x57.png */,
 				88A1B64815E1E5160008C75B /* logo-114x114.png */,
@@ -219,6 +222,7 @@
 				88D0514515DAB50E00CEA453 /* logo-metrica.png in Resources */,
 				88A1B64915E1E5160008C75B /* logo-57x57.png in Resources */,
 				88A1B64A15E1E5160008C75B /* logo-114x114.png in Resources */,
+				8865825016725E830063B190 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -277,7 +281,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -286,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -295,7 +299,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -315,7 +319,7 @@
 				GCC_PREFIX_HEADER = "MetricaMobileDemo/MetricaMobileDemo-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "CONFIGURATION_$(CONFIGURATION)";
 				INFOPLIST_FILE = "MetricaMobileDemo/MetricaMobileDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MetricaMobileSDK\"",
@@ -339,7 +343,7 @@
 				GCC_PREFIX_HEADER = "MetricaMobileDemo/MetricaMobileDemo-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "CONFIGURATION_$(CONFIGURATION)";
 				INFOPLIST_FILE = "MetricaMobileDemo/MetricaMobileDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MetricaMobileSDK\"",
