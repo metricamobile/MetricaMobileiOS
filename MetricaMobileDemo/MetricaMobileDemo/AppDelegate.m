@@ -15,8 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //Activate Staditic and Error Reporting
-    [[BWMetricaMobileManager sharedMetricaMobileManager] start:@"da4b9237bacccdf19c0760cab7aec4a8359010b0" ];
-    //[[BWMetricaMobileManager sharedMetricaMobileManager] setDelegate:self];
+    [MetricaMobile start:@"da4b9237bacccdf19c0760cab7aec4a8359010b0"];
     // Override point for customization after application launch.
     return YES;
 }

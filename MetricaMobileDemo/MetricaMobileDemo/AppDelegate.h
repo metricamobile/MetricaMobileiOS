@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MetricaMobileManager.h"
+#import <MetricaMobile/MetricaMobile.h>
 
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>{

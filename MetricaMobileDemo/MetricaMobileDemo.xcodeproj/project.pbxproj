@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882F981A17BD8E490031EEB6 /* MetricaMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882F981917BD8E490031EEB6 /* MetricaMobile.framework */; };
 		8865825016725E830063B190 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865824F16725E830063B190 /* Default-568h@2x.png */; };
 		88A1B64915E1E5160008C75B /* logo-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A1B64715E1E5160008C75B /* logo-57x57.png */; };
 		88A1B64A15E1E5160008C75B /* logo-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A1B64815E1E5160008C75B /* logo-114x114.png */; };
@@ -22,11 +23,10 @@
 		88B93C8A15D0400A0001AFA5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B93C8915D0400A0001AFA5 /* SystemConfiguration.framework */; };
 		88B93C9615D078FD0001AFA5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B93C9515D078FD0001AFA5 /* CoreTelephony.framework */; };
 		88D0514515DAB50E00CEA453 /* logo-metrica.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0514415DAB50E00CEA453 /* logo-metrica.png */; };
-		88ED72E51614FFF900E34586 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88ED72DE1614FFF900E34586 /* CrashReporter.framework */; };
-		88ED72E61614FFFA00E34586 /* libMetricaMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88ED72DF1614FFF900E34586 /* libMetricaMobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882F981917BD8E490031EEB6 /* MetricaMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetricaMobile.framework; sourceTree = "<group>"; };
 		8865824F16725E830063B190 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88A1B64715E1E5160008C75B /* logo-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-57x57.png"; sourceTree = "<group>"; };
 		88A1B64815E1E5160008C75B /* logo-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-114x114.png"; sourceTree = "<group>"; };
@@ -47,10 +47,6 @@
 		88B93C8915D0400A0001AFA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		88B93C9515D078FD0001AFA5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		88D0514415DAB50E00CEA453 /* logo-metrica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-metrica.png"; sourceTree = "<group>"; };
-		88ED72DE1614FFF900E34586 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
-		88ED72DF1614FFF900E34586 /* libMetricaMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMetricaMobile.a; sourceTree = "<group>"; };
-		88ED72E31614FFF900E34586 /* MetricaMobile_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetricaMobile_OpenUDID.h; sourceTree = "<group>"; };
-		88ED72E41614FFF900E34586 /* MetricaMobileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetricaMobileManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +60,7 @@
 				88B93C5D15D02C6B0001AFA5 /* UIKit.framework in Frameworks */,
 				88B93C5F15D02C6B0001AFA5 /* Foundation.framework in Frameworks */,
 				88B93C6115D02C6B0001AFA5 /* CoreGraphics.framework in Frameworks */,
-				88ED72E51614FFF900E34586 /* CrashReporter.framework in Frameworks */,
-				88ED72E61614FFFA00E34586 /* libMetricaMobile.a in Frameworks */,
+				882F981A17BD8E490031EEB6 /* MetricaMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				8865824F16725E830063B190 /* Default-568h@2x.png */,
-				88ED72DD1614FFF900E34586 /* MetricaMobile-iOS */,
 				88A1B64715E1E5160008C75B /* logo-57x57.png */,
 				88A1B64815E1E5160008C75B /* logo-114x114.png */,
 				88D0514415DAB50E00CEA453 /* logo-metrica.png */,
@@ -97,6 +91,7 @@
 		88B93C5B15D02C6B0001AFA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				882F981917BD8E490031EEB6 /* MetricaMobile.framework */,
 				88B93C9515D078FD0001AFA5 /* CoreTelephony.framework */,
 				88B93C8915D0400A0001AFA5 /* SystemConfiguration.framework */,
 				88B93C8715D03FFE0001AFA5 /* QuartzCore.framework */,
@@ -131,41 +126,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		88ED72DD1614FFF900E34586 /* MetricaMobile-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				88ED72DE1614FFF900E34586 /* CrashReporter.framework */,
-				88ED72DF1614FFF900E34586 /* libMetricaMobile.a */,
-				88ED72E01614FFF900E34586 /* usr */,
-			);
-			path = "MetricaMobile-iOS";
-			sourceTree = "<group>";
-		};
-		88ED72E01614FFF900E34586 /* usr */ = {
-			isa = PBXGroup;
-			children = (
-				88ED72E11614FFF900E34586 /* local */,
-			);
-			path = usr;
-			sourceTree = "<group>";
-		};
-		88ED72E11614FFF900E34586 /* local */ = {
-			isa = PBXGroup;
-			children = (
-				88ED72E21614FFF900E34586 /* include */,
-			);
-			path = local;
-			sourceTree = "<group>";
-		};
-		88ED72E21614FFF900E34586 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				88ED72E31614FFF900E34586 /* MetricaMobile_OpenUDID.h */,
-				88ED72E41614FFF900E34586 /* MetricaMobileManager.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +136,7 @@
 				88B93C5415D02C6B0001AFA5 /* Sources */,
 				88B93C5515D02C6B0001AFA5 /* Frameworks */,
 				88B93C5615D02C6B0001AFA5 /* Resources */,
+				882F981817BD8C0F0031EEB6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -227,6 +188,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		882F981817BD8C0F0031EEB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./MetricaMobile.framework/XUDwarfExtractor -app ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME} -dsym ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME} -dwarf ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/MetricaMobile.debugInfo -log ${PROJECT_DIR}/XUDwarfExtractor.txt";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88B93C5415D02C6B0001AFA5 /* Sources */ = {
@@ -311,20 +288,14 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Vendor\"",
-					"\"$(SRCROOT)/MetricaMobileSDK\"",
-					"\"$(SRCROOT)/MetricaMobile-iOS\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MetricaMobileDemo/MetricaMobileDemo-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "CONFIGURATION_$(CONFIGURATION)";
 				INFOPLIST_FILE = "MetricaMobileDemo/MetricaMobileDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/MetricaMobileSDK\"",
-					"\"$(SRCROOT)/MetricaMobile-iOS\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,20 +306,14 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Vendor\"",
-					"\"$(SRCROOT)/MetricaMobileSDK\"",
-					"\"$(SRCROOT)/MetricaMobile-iOS\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MetricaMobileDemo/MetricaMobileDemo-Prefix.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "CONFIGURATION_$(CONFIGURATION)";
 				INFOPLIST_FILE = "MetricaMobileDemo/MetricaMobileDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/MetricaMobileSDK\"",
-					"\"$(SRCROOT)/MetricaMobile-iOS\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
