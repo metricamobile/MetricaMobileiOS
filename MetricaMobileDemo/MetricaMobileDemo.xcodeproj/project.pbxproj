@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		882F981A17BD8E490031EEB6 /* MetricaMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882F981917BD8E490031EEB6 /* MetricaMobile.framework */; };
 		8865825016725E830063B190 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8865824F16725E830063B190 /* Default-568h@2x.png */; };
 		88A1B64915E1E5160008C75B /* logo-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A1B64715E1E5160008C75B /* logo-57x57.png */; };
 		88A1B64A15E1E5160008C75B /* logo-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A1B64815E1E5160008C75B /* logo-114x114.png */; };
+		88B1FCB21889F38600F64B97 /* MetricaMobile64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B1FCB11889F38600F64B97 /* MetricaMobile64.framework */; };
 		88B93C5D15D02C6B0001AFA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B93C5C15D02C6B0001AFA5 /* UIKit.framework */; };
 		88B93C5F15D02C6B0001AFA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B93C5E15D02C6B0001AFA5 /* Foundation.framework */; };
 		88B93C6115D02C6B0001AFA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B93C6015D02C6B0001AFA5 /* CoreGraphics.framework */; };
@@ -26,10 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		882F981917BD8E490031EEB6 /* MetricaMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetricaMobile.framework; sourceTree = "<group>"; };
 		8865824F16725E830063B190 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88A1B64715E1E5160008C75B /* logo-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-57x57.png"; sourceTree = "<group>"; };
 		88A1B64815E1E5160008C75B /* logo-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-114x114.png"; sourceTree = "<group>"; };
+		88B1FCB11889F38600F64B97 /* MetricaMobile64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetricaMobile64.framework; sourceTree = "<group>"; };
 		88B93C5815D02C6B0001AFA5 /* MetricaMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricaMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B93C5C15D02C6B0001AFA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88B93C5E15D02C6B0001AFA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,13 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B1FCB21889F38600F64B97 /* MetricaMobile64.framework in Frameworks */,
 				88B93C9615D078FD0001AFA5 /* CoreTelephony.framework in Frameworks */,
 				88B93C8A15D0400A0001AFA5 /* SystemConfiguration.framework in Frameworks */,
 				88B93C8815D03FFE0001AFA5 /* QuartzCore.framework in Frameworks */,
 				88B93C5D15D02C6B0001AFA5 /* UIKit.framework in Frameworks */,
 				88B93C5F15D02C6B0001AFA5 /* Foundation.framework in Frameworks */,
 				88B93C6115D02C6B0001AFA5 /* CoreGraphics.framework in Frameworks */,
-				882F981A17BD8E490031EEB6 /* MetricaMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 		88B93C5B15D02C6B0001AFA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				882F981917BD8E490031EEB6 /* MetricaMobile.framework */,
+				88B1FCB11889F38600F64B97 /* MetricaMobile64.framework */,
 				88B93C9515D078FD0001AFA5 /* CoreTelephony.framework */,
 				88B93C8915D0400A0001AFA5 /* SystemConfiguration.framework */,
 				88B93C8715D03FFE0001AFA5 /* QuartzCore.framework */,
@@ -201,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./MetricaMobile.framework/XUDwarfExtractor -app ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME} -dsym ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME} -dwarf ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/MetricaMobile.debugInfo -log ${PROJECT_DIR}/XUDwarfExtractor.txt";
+			shellScript = "./MetricaMobile64.framework/XUDwarfExtractor -app ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME} -dsym ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME} -dwarf ${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/MetricaMobile.debugInfo -log ${PROJECT_DIR}/XUDwarfExtractor.txt -v";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -288,7 +288,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"/Users/logicoim/Desktop/MetricaMobileiOS-master/MetricaMobileDemo",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MetricaMobileDemo/MetricaMobileDemo-Prefix.pch";
@@ -306,7 +307,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"/Users/logicoim/Desktop/MetricaMobileiOS-master/MetricaMobileDemo",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MetricaMobileDemo/MetricaMobileDemo-Prefix.pch";
