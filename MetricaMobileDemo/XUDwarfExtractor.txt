@@ -1,6 +1,6 @@
 DEBUG detectado
-Archivo con 1 Mach-O: /Users/logicoim/Library/Developer/Xcode/DerivedData/MetricaMobileDemo-ehzvbajdytxyyhczvkjyoszdpkav/Build/Products/Debug-iphonesimulator/MetricaMobileDemo.app/MetricaMobileDemo
-Bloque '__TEXT' encontrado vmAddr: 4096 (CPU_TYPE_X86  subtipo_3)
-Archivo con 1 Mach-O: /Users/logicoim/Library/Developer/Xcode/DerivedData/MetricaMobileDemo-ehzvbajdytxyyhczvkjyoszdpkav/Build/Products/Debug-iphonesimulator/MetricaMobileDemo.app.dSYM/Contents/Resources/DWARF/MetricaMobileDemo
-Bloque '__debug_line' encontrado: 4949 bytes (CPU_TYPE_X86  subtipo_3)
-Archivo escrito: /Users/logicoim/Library/Developer/Xcode/DerivedData/MetricaMobileDemo-ehzvbajdytxyyhczvkjyoszdpkav/Build/Products/Debug-iphonesimulator/MetricaMobileDemo.app/MetricaMobile.debugInfo
+Archivo con 1 Mach-O: /Users/logicoim/Library/Developer/Xcode/DerivedData/MetricaMobileDemo-aggbrgmvodbvgjcyqhxkzjtnwjwu/Build/Products/Debug-iphoneos/MetricaMobileDemo.app/MetricaMobileDemo
+Bloque '__TEXT' encontrado vmAddr: 16384 (CPU_TYPE_ARM  CPU_SUBTYPE_ARM_V7)
+Archivo con 1 Mach-O: /Users/logicoim/Library/Developer/Xcode/DerivedData/MetricaMobileDemo-aggbrgmvodbvgjcyqhxkzjtnwjwu/Build/Products/Debug-iphoneos/MetricaMobileDemo.app.dSYM/Contents/Resources/DWARF/MetricaMobileDemo
+Bloque '__debug_line' encontrado: 4523 bytes (CPU_TYPE_ARM  CPU_SUBTYPE_ARM_V7)
+Archivo escrito: /Users/logicoim/Library/Developer/Xcode/DerivedData/MetricaMobileDemo-aggbrgmvodbvgjcyqhxkzjtnwjwu/Build/Products/Debug-iphoneos/MetricaMobileDemo.app/MetricaMobile.debugInfo
